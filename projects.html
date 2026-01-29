@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Behind the Curtain</title>
+    <meta name="description" content="Explore my work in Bitcoin, technology, and innovative projects.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cursor-glow"></div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">₿</span>
+                <span class="logo-text">Behind the Curtain</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="writings.html">Writings</a></li>
+                <li><a href="journal.html">Journal</a></li>
+                <li><a href="contact.html" class="nav-cta">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <section class="section page-header">
+        <div class="container">
+            <div class="hero-badge">
+                <span class="pulse"></span>
+                Projects
+            </div>
+            <h1>Work That <span class="gradient-text">Speaks</span></h1>
+            <p class="hero-subtitle">A collection of projects, experiments, and contributions to the Bitcoin and tech ecosystem.</p>
+        </div>
+    </section>
+
+    <section class="section projects-page">
+        <div class="container">
+            <div class="filter-tabs">
+                <button class="filter-tab active" data-filter="all">All</button>
+                <button class="filter-tab" data-filter="bitcoin">Bitcoin</button>
+                <button class="filter-tab" data-filter="development">Development</button>
+                <button class="filter-tab" data-filter="education">Education</button>
+                <button class="filter-tab" data-filter="research">Research</button>
+            </div>
+
+            <div id="projects-container" class="projects-grid">
+                <!-- Content will be loaded dynamically from projects.json -->
+                <div class="loading">Loading projects...</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section cta-section">
+        <div class="container">
+            <div class="cta-box">
+                <h2>Have a Project in Mind?</h2>
+                <p>I'm always interested in collaborating on innovative Bitcoin and technology projects.</p>
+                <a href="contact.html" class="btn btn-primary">Let's Build Together</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <span class="logo-icon">₿</span>
+                        <span class="logo-text">Behind the Curtain</span>
+                    </a>
+                    <p>Building for the decentralized future.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h4>Navigation</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="projects.html">Projects</a></li>
+                            <li><a href="writings.html">Writings</a></li>
+                            <li><a href="journal.html">Journal</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Resources</h4>
+                        <ul>
+                            <li><a href="writings.html">Blog</a></li>
+                            <li><a href="journal.html">Journal</a></li>
+                            <!-- <li><a href="#">Newsletter</a></li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Behind the Curtain. All rights reserved.</p>
+                <p class="footer-quote">Don't trust, verify. ₿</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="content-loader.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+{
+  "writings": [
+    {
+      "id": 1,
+      "title": "Understanding Bitcoin's Value Proposition",
+      "slug": "understanding-bitcoin-value-proposition",
+      "date": "2025-01-15",
+      "category": "bitcoin",
+      "tags": ["Bitcoin", "Sound Money", "Economics"],
+      "excerpt": "An exploration of what makes Bitcoin valuable beyond just price speculation. Understanding the fundamental properties that give Bitcoin its unique position.",
+      "content": "Bitcoin represents more than just a digital currency—it's a paradigm shift in how we think about money, value, and sovereignty...\n\n[Add your full article content here]",
+      "readTime": "8 min read",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "Getting Started with Lightning Network",
+      "slug": "getting-started-lightning-network",
+      "date": "2025-01-10",
+      "category": "technology",
+      "tags": ["Lightning", "Bitcoin", "Payments"],
+      "excerpt": "A practical guide to understanding and using the Lightning Network for fast, cheap Bitcoin transactions.",
+      "content": "The Lightning Network is Bitcoin's layer 2 scaling solution...\n\n[Add your full article content here]",
+      "readTime": "10 min read",
+      "featured": false
+    },
+    {
+      "id": 3,
+      "title": "The Philosophy of Self-Custody",
+      "slug": "philosophy-self-custody",
+      "date": "2025-01-05",
+      "category": "philosophy",
+      "tags": ["Self-Custody", "Security", "Sovereignty"],
+      "excerpt": "Why controlling your own keys is fundamental to the Bitcoin ethos and what it means for personal freedom.",
+      "content": "Not your keys, not your coins. This simple phrase encapsulates...\n\n[Add your full article content here]",
+      "readTime": "6 min read",
+      "featured": false
+    }
+  ]
+}

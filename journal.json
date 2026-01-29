@@ -1,0 +1,39 @@
+{
+  "entries": [
+    {
+      "id": 1,
+      "date": "2025-01-28",
+      "title": "Reflections on Building in Public",
+      "content": "Today I've been thinking about the value of building in public. There's something powerful about sharing the journey, not just the destination. It creates accountability, attracts like-minded people, and helps others learn from both successes and mistakes.\n\nIn the Bitcoin space especially, transparency is a core value. Why should building be any different?",
+      "tags": ["building", "transparency", "community"]
+    },
+    {
+      "id": 2,
+      "date": "2025-01-26",
+      "title": "On Time Preference",
+      "content": "Been diving deeper into the concept of time preference and how Bitcoin naturally encourages low time preference thinking. When you understand that your money won't lose value over time, you start thinking longer-term.\n\nThis isn't just about investing—it's about how we approach life, work, and relationships. Sound money creates sound thinking.",
+      "tags": ["economics", "bitcoin", "philosophy"]
+    },
+    {
+      "id": 3,
+      "date": "2025-01-22",
+      "title": "Learning Node.js",
+      "content": "Started working with Node.js for a new project. The asynchronous nature takes some getting used to if you're coming from other languages, but the ecosystem is incredibly rich.\n\nPlanning to build something that connects to Bitcoin Core's RPC. More details to come.",
+      "tags": ["development", "nodejs", "bitcoin"]
+    },
+    {
+      "id": 4,
+      "date": "2025-01-18",
+      "title": "Why I Write",
+      "content": "Someone asked me why I spend time writing when I could be coding. The answer is simple: writing clarifies thinking.\n\nWhen you can explain a complex concept clearly, it means you truly understand it. Plus, the best way to learn is to teach. Writing is teaching at scale.",
+      "tags": ["writing", "learning", "education"]
+    },
+    {
+      "id": 5,
+      "date": "2025-01-15",
+      "title": "First Entry",
+      "content": "Starting this journal to document thoughts, learnings, and the journey. Not everything needs to be a polished article. Sometimes the raw, unfiltered thoughts are the most valuable.\n\nHere's to consistent writing and growth.",
+      "tags": ["meta", "journaling", "beginnings"]
+    }
+  ]
+}

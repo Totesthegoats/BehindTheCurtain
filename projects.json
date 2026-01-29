@@ -1,0 +1,142 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Bitcoin Education Platform",
+      "slug": "bitcoin-education-platform",
+      "category": "education",
+      "tags": ["Bitcoin", "Education", "Web App"],
+      "description": "A comprehensive educational platform designed to teach Bitcoin fundamentals to newcomers. Features interactive lessons, quizzes, and practical exercises.",
+      "image": "images/projects/bitcoin-education.jpg",
+      "imageAlt": "Bitcoin Education Platform Screenshot",
+      "technologies": ["React", "Node.js", "Bitcoin Core"],
+      "status": "active",
+      "links": {
+        "live": "https://example.com",
+        "github": "https://github.com/yourusername/project",
+        "demo": ""
+      },
+      "highlights": [
+        "Over 1,000 students enrolled",
+        "Interactive Bitcoin wallet simulation",
+        "Multi-language support"
+      ],
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "Lightning Network Node Dashboard",
+      "slug": "lightning-node-dashboard",
+      "category": "bitcoin",
+      "tags": ["Lightning", "Node Management", "Dashboard"],
+      "description": "A clean, user-friendly dashboard for managing Lightning Network nodes. Monitor channels, balance, and transactions in real-time.",
+      "image": "images/projects/lightning-dashboard.jpg",
+      "imageAlt": "Lightning Network Dashboard Interface",
+      "technologies": ["Vue.js", "LND", "WebSockets"],
+      "status": "active",
+      "links": {
+        "live": "",
+        "github": "https://github.com/yourusername/ln-dashboard",
+        "demo": "https://demo.example.com"
+      },
+      "highlights": [
+        "Real-time channel monitoring",
+        "Automated rebalancing suggestions",
+        "Beautiful data visualizations"
+      ],
+      "featured": true
+    },
+    {
+      "id": 3,
+      "title": "Bitcoin Price Analysis Tool",
+      "slug": "btc-price-analysis",
+      "category": "research",
+      "tags": ["Analytics", "Data Science", "Bitcoin"],
+      "description": "Advanced price analysis tool with on-chain metrics, technical indicators, and machine learning predictions.",
+      "image": "images/projects/price-analysis.jpg",
+      "imageAlt": "Bitcoin Price Analysis Charts",
+      "technologies": ["Python", "Pandas", "TensorFlow"],
+      "status": "completed",
+      "links": {
+        "live": "",
+        "github": "https://github.com/yourusername/btc-analysis",
+        "demo": ""
+      },
+      "highlights": [
+        "50+ on-chain metrics",
+        "ML-based trend prediction",
+        "Daily automated reports"
+      ],
+      "featured": false
+    },
+    {
+      "id": 4,
+      "title": "Self-Custody Wallet Guide",
+      "slug": "self-custody-guide",
+      "category": "education",
+      "tags": ["Security", "Self-Custody", "Tutorial"],
+      "description": "Comprehensive guide and tools for setting up secure self-custody Bitcoin wallets. Step-by-step tutorials for various wallet types.",
+      "image": "images/projects/custody-guide.jpg",
+      "imageAlt": "Self-Custody Wallet Guide Cover",
+      "technologies": ["Documentation", "Hardware Wallets", "Multi-sig"],
+      "status": "active",
+      "links": {
+        "live": "https://guide.example.com",
+        "github": "",
+        "demo": ""
+      },
+      "highlights": [
+        "Covers all major wallet types",
+        "Security best practices",
+        "Recovery procedures"
+      ],
+      "featured": false
+    },
+    {
+      "id": 5,
+      "title": "Open Source Bitcoin Library",
+      "slug": "bitcoin-dev-library",
+      "category": "development",
+      "tags": ["Library", "Open Source", "Bitcoin"],
+      "description": "A modern JavaScript library for Bitcoin development, making it easier to build Bitcoin applications.",
+      "image": "images/projects/dev-library.jpg",
+      "imageAlt": "Code snippet from Bitcoin library",
+      "technologies": ["TypeScript", "Bitcoin Core", "NPM"],
+      "status": "active",
+      "links": {
+        "live": "",
+        "github": "https://github.com/yourusername/bitcoin-lib",
+        "demo": ""
+      },
+      "highlights": [
+        "100% test coverage",
+        "Comprehensive documentation",
+        "Active community support"
+      ],
+      "featured": false
+    },
+    {
+      "id": 6,
+      "title": "Bitcoin Conference Talk: \"Building on Bitcoin\"",
+      "slug": "conference-talk-2024",
+      "category": "education",
+      "tags": ["Speaking", "Conference", "Bitcoin"],
+      "description": "Presentation on building practical applications on Bitcoin, covering Lightning Network integration and best practices.",
+      "image": "images/projects/conference-talk.jpg",
+      "imageAlt": "Conference presentation screenshot",
+      "technologies": ["Public Speaking", "Lightning", "Bitcoin"],
+      "status": "completed",
+      "links": {
+        "live": "https://youtube.com/watch?v=example",
+        "github": "",
+        "demo": ""
+      },
+      "highlights": [
+        "500+ attendees",
+        "Published on YouTube",
+        "Positive community feedback"
+      ],
+      "featured": false
+    }
+  ]
+}

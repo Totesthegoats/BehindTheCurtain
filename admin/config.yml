@@ -1,0 +1,60 @@
+backend:
+  name: git-gateway
+  branch: main # Change to 'master' if your GitHub uses master instead of main
+
+# Uncomment below if you want to enable local development mode
+# local_backend: true
+
+media_folder: "images/uploads" # Where uploaded images will be stored
+public_folder: "/images/uploads" # The public path to the media folder
+
+collections:
+  # Writings Collection
+  - name: "writings"
+    label: "Writings"
+    folder: "content/writings"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Category", name: "category", widget: "select", options: ["bitcoin", "technology", "economics", "philosophy"] }
+      - { label: "Tags", name: "tags", widget: "list", default: ["Bitcoin"] }
+      - { label: "Excerpt", name: "excerpt", widget: "text" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Read Time", name: "readTime", widget: "string", default: "5 min read" }
+      - { label: "Featured", name: "featured", widget: "boolean", default: false }
+
+  # Journal Collection
+  - name: "journal"
+    label: "Journal"
+    folder: "content/journal"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+
+  # Projects Collection
+  - name: "projects"
+    label: "Projects"
+    folder: "content/projects"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Category", name: "category", widget: "select", options: ["bitcoin", "development", "education", "research"] }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Featured Image", name: "image", widget: "image", required: false }
+      - { label: "Image Alt Text", name: "imageAlt", widget: "string", required: false }
+      - { label: "Technologies", name: "technologies", widget: "list", default: ["Bitcoin"] }
+      - { label: "Status", name: "status", widget: "select", options: ["active", "completed", "archived"], default: "active" }
+      - { label: "Tags", name: "tags", widget: "list" }
+      - { label: "Highlights", name: "highlights", widget: "list", required: false }
+      - { label: "Live URL", name: "liveUrl", widget: "string", required: false }
+      - { label: "GitHub URL", name: "githubUrl", widget: "string", required: false }
+      - { label: "Demo URL", name: "demoUrl", widget: "string", required: false }
+      - { label: "Featured", name: "featured", widget: "boolean", default: false }
+      - { label: "Full Description", name: "body", widget: "markdown", required: false }

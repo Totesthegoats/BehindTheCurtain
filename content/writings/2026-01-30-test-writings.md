@@ -9,8 +9,8 @@ excerpt: |
 readTime: 5 min read
 featured: false
 ---
-This the first website I have built from start to finish, thanks Claude code!\
-\
+This the first website I have built from start to finish, thanks Claude code!
+
 It actually took no time at all, now how good it actually is, is another question. 
 
 I am planning to use this website to throw my musings, my thoughts and musing, I will write more soon.

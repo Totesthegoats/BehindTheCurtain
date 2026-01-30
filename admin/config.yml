@@ -1,8 +1,9 @@
 backend:
-  name: git-gateway
-  branch: main # Change to 'master' if your GitHub uses master instead of main
+  name: github
+  repo: Totesthegoats/BehindTheCurtain
+  branch: main
 
-# Uncomment below if you want to enable local development mode
+# For local development/testing
 # local_backend: true
 
 media_folder: "images/uploads" # Where uploaded images will be stored

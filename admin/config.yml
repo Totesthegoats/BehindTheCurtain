@@ -2,6 +2,8 @@ backend:
   name: github
   repo: Totesthegoats/BehindTheCurtain
   branch: main
+  base_url: https://btc-oauth.totesthegoats.workers.dev/
+  auth_endpoint: /callback
 
 # For local development/testing
 # local_backend: true
